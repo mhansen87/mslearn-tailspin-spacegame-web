@@ -42,7 +42,7 @@ steps:
     command: 'restore'
     restoreSolution: '**/*.sln'
     feedsToUse: 'select'
-    vstsFeed: 'Space Game - web - Dependencies/Tailspin.SpaceGame.Web.Models'
+    vstsFeed: 'Space Game - web - Dependencies/569ec81e-6c37-4a16-a873-ce5034089b07'
 
 - task: DotNetCoreCLI@2
   displayName: 'Build the project - $(buildConfiguration)'
